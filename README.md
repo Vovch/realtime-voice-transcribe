@@ -17,11 +17,14 @@ This application allows you to convert speech to text in real-time and automatic
 
 1. Clone this repository:
 ```bash
-git clone https://github.com/yourusername/RealtimeSTTTestApp.git
+git clone https://github.com/Vovch/realtime-voice-transcribe.git
 ```
 
 2. Install the required dependencies:
 ```bash
+python -m venv venv
+
+source venv/bin/activate  # On Windows use `venv\Scripts\activate`
 pip install -r requirements.txt
 ```
 
